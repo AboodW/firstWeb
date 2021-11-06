@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Abdullah Alwawi Website</h1>
+    <form>
+    <p class="FirstName">First Name:    <input type="text"  name="FirstName"></p> 
+    <p class="LastName">Last Name:    <input type="text"  name="LastName"></p> 
+    <br>
+    <p class="Email">Email:   <input type="email"  name="email" required></p>
+    <p class="Password">Password:   <input type="password" minlength="5"  name="Password"></p>
+    <p class="BirthDate">BirthDate:   <input type="date" name="Birthday"></p>
+    
+    <div id="r1">
+
+    <p>Gender:<br>
+    <input type="radio"  name="gender" value="Male">Male
+    <input type="radio"   name="gender" value="Female">Feamle
+    <input type="radio"   name="gender" value="other">other
+    
+</p>
+
+<p>Pets:<br>
+    <input type="checkbox"   name="Cats" value="Cats">Cats
+    <input type="checkbox"   name="Birds" value="Birds">Birds
+    <input type="checkbox"   name="other" value="other">other
+    
+</p>
+<!--hi-->
+<p>Cars:<br>
+<select name="Car" >
+   <option value="Honda" name="Honda">Honda</option>
+   <option value="KIA"  name="KIA">KIA</option>
+   <option value="GETZ" name="GETZ">GETZ</option>
+</select>
+</div>
+</p>
+    <input type="submit" value="Register"> 
+    <input type="reset"  value="Reset"> 
+
+    </form>
+    
+</body>
+</html>

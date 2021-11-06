@@ -1,0 +1,39 @@
+body {
+background-image: url(../html/diluc.jpg);/*put a pic as backgroung to the site*/
+background-size: cover;/*to suit the pic in the website*/
+
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;/*control the text in the site*/
+    border: 5px solid #88CC88;
+    cursor: pointer;
+}
+
+/*p{
+    color: rgb(229, 245, 8);
+}*/
+
+.FirstName,.LastName{
+    display: inline-block;
+    color: rgb(11, 226, 11);
+}
+
+.Email,.Password{
+display: inline-block;
+color: rgb(10, 182, 235);
+
+}
+
+.BirthDate{
+color: rgb(239, 243, 11);
+
+}
+
+#r1 {
+    color: rgb(241, 11, 11);
+}
+/*.hbd{S
+text-transform: capitalize;
+}*/
